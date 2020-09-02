@@ -12,7 +12,7 @@ namespace VideoRentalStore
 {
     class ManageMovieRentals
     {
-        SqlConnection conn = new SqlConnection("Data Source=ABC\\SQLExpress;Initial Catalog=VRS_DB;Integrated Security=True");
+        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-5VOJDGC\\SQLExpress;Initial Catalog=VRS_DB;Integrated Security=True");
         SqlDataReader reader;
         SqlCommand cmd = new SqlCommand();
         string query = "";

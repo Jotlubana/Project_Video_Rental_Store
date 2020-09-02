@@ -10,7 +10,7 @@ namespace VideoRentalStore
 {
     class Procedures
     {
-        SqlConnection conn = new SqlConnection("Data Source = ABC\\SQLExpress; Initial Catalog = VRS_DB; Integrated Security = True");
+        SqlConnection conn = new SqlConnection("Data Source=DESKTOP-5VOJDGC\\SQLExpress; Initial Catalog = VRS_DB; Integrated Security = True");
         SqlCommand cmd = new SqlCommand();
       
         string query;

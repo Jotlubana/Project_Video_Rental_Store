@@ -13,7 +13,7 @@ namespace VideoRentalStore
     public class ManageMovies
     {
         //sql connection
-        SqlConnection Conn_Movies = new SqlConnection("Data Source=ABC\\SQLExpress;Initial Catalog=VRS_DB;Integrated Security=True");
+        SqlConnection Conn_Movies = new SqlConnection("Data Source=DESKTOP-5VOJDGC\\SQLExpress;Initial Catalog=VRS_DB;Integrated Security=True");
         // methods to run sql command
         SqlCommand cmd_Movies = new SqlCommand();
         //Reader is the object of reader class
